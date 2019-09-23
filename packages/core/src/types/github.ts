@@ -843,6 +843,7 @@ export type GitHubIcon =
   | 'watch'
   | 'x'
   | 'zap'
+  | 'facebook'
 
 export interface GitHubNotificationsOptions {
   all?: boolean

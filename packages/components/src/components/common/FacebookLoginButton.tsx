@@ -9,7 +9,7 @@ import { ThemedIcon } from '../themed/ThemedIcon'
 import { ThemedText } from '../themed/ThemedText'
 import { Spacer } from './Spacer'
 
-export interface GitHubLoginButtonProps
+export interface FacebookLoginButtonProps
   extends Omit<ButtonProps, 'children' | 'onPress'> {
   horizontal?: boolean
   leftIcon?: GitHubIcon
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   },
 })
 
-export function GitHubLoginButton(props: GitHubLoginButtonProps) {
+export function FacebookLoginButton(props: FacebookLoginButtonProps) {
   const {
     leftIcon = 'facebook',
     rightIcon = '',

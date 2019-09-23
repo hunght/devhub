@@ -5,6 +5,7 @@ import url from 'url'
 
 import { constants, tryParseOAuthParams } from '@devhub/core'
 import { getAppVersionLabel } from '../components/common/AppVersion'
+import { FacebookLoginButton } from '../components/common/FacebookLoginButton'
 import { FullHeightScrollView } from '../components/common/FullHeightScrollView'
 import { GitHubLoginButton } from '../components/common/GitHubLoginButton'
 import { Link } from '../components/common/Link'
@@ -253,6 +254,14 @@ export const LoginScreen = React.memo(() => {
             onPress={() => loginWithGitHub()}
             style={styles.button}
             title="Sign in with GitHub"
+          />
+          <Spacer height={contentPadding} />
+          <FacebookLoginButton
+            analyticsLabel="github_login_public"
+            loading={isLoggingIn || isExecutingOAuth}
+            onPress={() => loginWithGitHub()}
+            style={styles.button}
+            title="Sign in with fb"
           />
         </View>
 

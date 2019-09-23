@@ -31,6 +31,7 @@
 		2EAFF5FE1FE1AEEE000A9A11 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C758B88E34A52BFB2C474 /* MaterialIcons.ttf */; };
 		2EF2DAC62319867C00BBA425 /* libRNCSafeAreaContext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF2DAC42319866D00BBA425 /* libRNCSafeAreaContext.a */; };
 		38136B483A0F41CFA296051F /* libBugsnagReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7B304CE67D4BE2BCFF446B /* libBugsnagReactNative.a */; };
+		45A9A9F623389AA000100F44 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45A9A9C223389AA000100F44 /* FontAwesome.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		6A3D419810B34BC2C871D649 /* libPods-devhub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2D46220C64268F2FC76533 /* libPods-devhub.a */; };
 		7ED0838018F5422AA40D51BB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C004FC430E247649BC8DCB5 /* CoreData.framework */; };
@@ -439,6 +440,7 @@
 		2EF2DA8F2319866D00BBA425 /* SafeAreaView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SafeAreaView.xcodeproj; path = "../../../node_modules/react-native-safe-area-context/ios/SafeAreaView.xcodeproj"; sourceTree = "<group>"; };
 		2EF7E3A722CBDA5900E97FFC /* devhub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = devhub.entitlements; path = devhub/devhub.entitlements; sourceTree = "<group>"; };
 		40B4448D993A4CA2ABDDA557 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../../../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
+		45A9A9C223389AA000100F44 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		486C758B88E34A52BFB2C474 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		4A7B304CE67D4BE2BCFF446B /* libBugsnagReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBugsnagReactNative.a; sourceTree = "<group>"; };
 		5C004FC430E247649BC8DCB5 /* CoreData.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -799,6 +801,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				45A9A9C223389AA000100F44 /* FontAwesome.ttf */,
 				13B07FAE1A68108700A75B9A /* devhub */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* devhubTests */,
@@ -1373,6 +1376,7 @@
 				2E0B333E21C9FAD800275D1B /* Images.xcassets in Resources */,
 				2E2247FF21BF44F6000DF69D /* GoogleService-Info.plist in Resources */,
 				F104E1DDC29047C7B18F01E9 /* Octicons.ttf in Resources */,
+				45A9A9F623389AA000100F44 /* FontAwesome.ttf in Resources */,
 				2EAFF5FE1FE1AEEE000A9A11 /* MaterialIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

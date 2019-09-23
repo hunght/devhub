@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleProp } from 'react-native'
 
 import { Theme, ThemeColors, ThemeTransformer } from '@devhub/core'
-import { OcticonIconProps, Octicons } from '../../libs/vector-icons'
+import { FontAwesome, OcticonIconProps } from '../../libs/vector-icons'
 import { useTheme } from '../context/ThemeContext'
 import { getThemeColorOrItself } from './helpers'
 
@@ -14,7 +14,7 @@ export interface ThemedIconProps
 }
 
 export const ThemedIcon = React.memo(
-  React.forwardRef<Octicons, ThemedIconProps>((props, ref) => {
+  React.forwardRef<FontAwesome, ThemedIconProps>((props, ref) => {
     const { color: _color, themeTransformer, ...otherProps } = props
 
     const theme = useTheme({ themeTransformer })
@@ -23,10 +23,10 @@ export const ThemedIcon = React.memo(
       enableCSSVariable: true,
     })
 
-    return <Octicons ref={ref} {...otherProps} color={color} />
+    return <FontAwesome ref={ref} {...otherProps} color={color} />
   }),
 )
 
 ThemedIcon.displayName = 'ThemedIcon'
 
-export type ThemedIcon = Octicons
+export type ThemedIcon = FontAwesome
